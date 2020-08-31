@@ -1,0 +1,20 @@
+//
+//  Staging.xcconfig
+//  Lineup
+//
+//  Created by y8k on 13/05/2019.
+//  Copyright © 2019 Lineup. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+X_BUNDLE_NAME = lineupdev
+X_BUNDLE_DISPLAY_NAME = Lineup DEV
+X_BUNDLE_IDENTIFIER = me.lineup.lineup.dev
+
+X_WEB_SERVER_ADDRESS = https:/$()/staging.line-up.me
+X_API_SERVER_ADDRESS = https:/$()/staging-api.line-up.me/api/v1
+
+X_FIREBASE_PLIST = GoogleService-Dev-Info
+X_URL_SCHEME_PREFIX = lineup.dev

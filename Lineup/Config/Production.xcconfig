@@ -1,0 +1,20 @@
+//
+//  Production.xcconfig
+//  Lineup
+//
+//  Created by y8k on 13/05/2019.
+//  Copyright © 2019 Lineup. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+X_BUNDLE_NAME = lineup
+X_BUNDLE_DISPLAY_NAME = Lineup
+X_BUNDLE_IDENTIFIER = me.lineup.lineup
+
+X_WEB_SERVER_ADDRESS = https:/$()/beta.line-up.me
+X_API_SERVER_ADDRESS = https:/$()/api.line-up.me/api/v1
+
+X_FIREBASE_PLIST = GoogleService-Info
+X_URL_SCHEME_PREFIX = lineup
